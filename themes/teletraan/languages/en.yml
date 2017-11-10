@@ -1,0 +1,84 @@
+themeLanguage: EN
+home:
+  title: Teletraan INC.
+en: English
+zh: Chinese
+nav:
+  fe: Technology
+  se: Industry
+  au: About us
+  ju: Join Us
+  cu: Contact Us
+feature:
+  data: Big Data Platform
+  ag: Agile Software Development
+  po: Prediction & Optimization
+  dataTitle: 统观全局，实时掌握
+  agTitle: 灵活配置，快速响应
+  poTitle: 精准分析，有据可依
+title:
+  service: Service
+  aboutUs: About Us
+  joinUs: Join Us
+  team: Contact Us
+service:
+  ocean: 海上平台
+  build: 工业制造
+  car: 汽车
+  alchemy: 冶金采矿
+  energy: 节能优化
+  oilRefining: 炼油
+aboutUs:
+  total: Teletraan（天垂科技）成立于美国硅谷，并已于2017年9月将业务拓展至中国。公司汇集了来自各行业领域的业务专家、软件工程师及数据科学家，致力于打造新一代全栈工业物联网应用开发平台，服务于汽车、能源、制造、冶炼等行业。
+  base: 公司通过物联网系统，数据分析与挖掘、机器学习以及现代软件等前沿技术，更为便捷、迅速的为客户提供企业级应用的设计、开发及部署服务。除上述外，公司可以提供一系列成套的物联网SaaS应用，其中涵盖能源优化、预测性维护、健康检测等多项解决方案。我们将携手合作伙伴，积极推动人工智能在各行业领域的普及与应用。
+joinUs:
+  name: 职位名称
+  type: 职位分类
+  city: 城市
+  share: 请将简历投递至 job.cn@teletraan.io，期待您的加入。
+  # 职位
+  frontEnd: 前端工程师
+  backEnd: 后端工程师【Python】
+  seniorBackEnd: 资深后端开发工程师【Pyhton】
+  UI: UI/交互设计师
+  seniorUI: 资深视觉设计师
+  projectManager: 项目经理
+  productManager: 产品经理
+  marketingDirector: 市场经理/总监
+  seller: 大客户销售经理
+  trainee: 数据实习生
+  # 职位种类
+  frontType: 技术
+  backEndType: 技术
+  seniorBackEndType: 技术
+  UIType: 设计
+  seniorUIType: 设计
+  projectManagerType: 技术
+  productManagerType: 技术
+  marketingDirectorType: 技术
+  sellerType: 市场与销售
+  traineeType: 数据实习生
+  frontCity: 杭州
+  backEndCity: 杭州
+  seniorBackEndCity: 杭州
+  UICity: 杭州
+  seniorUICity: 杭州
+  projectManagerCity: 杭州
+  productManagerCity: 杭州
+  marketingDirectorCity: 杭州
+  sellerCity: 杭州
+  traineeCity: 杭州
+
+  stateDesc: 职位描述
+  requirement: 要求
+  bonusItem: 加分项
+team:
+  Chinese: 中国地址
+  America: 美国地址
+  contact: 联系方式
+  ChineseAd: 中国浙江省杭州市滨江区物联网街451号
+  AmericaAd: 2225 E Bayshore Rd #100
+  ChinsesSt: 芯图大厦
+  AmericaSt: Palo Alto, CA 94303
+  email: info@teletraan.io
+  phone: 0571-87065827

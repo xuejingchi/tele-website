@@ -1,0 +1,10 @@
+<section id="aboutUs" class="about-section" style="background:url(<%= theme.Homepage.aboutUs.bg %>) no-repeat;background-size: cover">
+    <div class="bg">
+        <div class="container" style="padding-top: 80px;padding-bottom: 80px;padding-right: 80px;">
+            <div class="about-title"><%= __('title.'+theme.Homepage.aboutUs.title) %></div>
+            <% for (var i in theme.Homepage.aboutUs.content){ %>
+            <div class="about-content"><%= __('aboutUs.'+theme.Homepage.aboutUs.content[i]) %></div>
+            <% } %>
+        </div>
+    </div>
+</section>

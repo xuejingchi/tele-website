@@ -1,0 +1,15 @@
+<section id="services" class="services service-section">
+    <div class="container">
+        <div class="main-title"><%= __('title.'+theme.Homepage.service.title) %></div>
+        <div class="row">
+            <% for (var i in theme.Homepage.service.pic){ %>
+                <div class="col-md-4 col-sm-6 services text-center">
+                    <img src="<%= theme.Homepage.service.pic[i] %>" srcset="<%= theme.Homepage.service.picD[i] %>" alt="teletraan">
+                    <div class="services-content">
+                        <span class="service-title"><%= __('service.'+theme.Homepage.service.name[i]) %></span>
+                    </div>
+                </div>
+            <% } %>
+        </div>
+    </div>
+</section>

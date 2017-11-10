@@ -1,0 +1,36 @@
+<section id="joinUs" class="join join-section">
+    <div class="container">
+        <div class="main-title"><%= __('title.'+theme.Homepage.joinUs.title) %></div>
+        <div class="join-content">
+            <div class="join-nav col-xs-12">
+                <div class="col-xs-5"><%= __('joinUs.'+theme.Homepage.joinUs.joinTitle[0]) %></div>
+                <div class="col-xs-4"><%= __('joinUs.'+theme.Homepage.joinUs.joinTitle[1]) %></div>
+                <div class="col-xs-3"><%= __('joinUs.'+theme.Homepage.joinUs.joinTitle[2]) %></div>
+            </div>
+            <div class="panel-group" id="accordion">
+                <% for (var i in theme.Homepage.joinUs.stateName){ %>
+                <div class="panel-default panel">
+                    <a data-toggle="collapse" data-parent="#accordion"
+                       href="#collapse<%= i %>">
+                        <div class="panel-heading">
+                            <div class="col-xs-5" style="position:relative;padding-left: 35px;width: 35%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;"><%= __('joinUs.'+theme.Homepage.joinUs.stateName[i]) %></div>
+                            <div class="col-xs-4" style="position:relative;text-align: center;"><%= __('joinUs.'+theme.Homepage.joinUs.stateType[i]) %></div>
+                            <div class="col-xs-3" style="position:relative;"><%= __('joinUs.'+theme.Homepage.joinUs.stateCity[i]) %></div>
+                        </div>
+                    </a>
+                    <div id="collapse<%= i %>" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <% if ( __('title.service').indexOf('Service') > -1) { %>
+                            <%- partial('_jobs/en/'+theme.Homepage.joinUs.stateName[i]) %>
+                            <% } else { %>
+                            <%- partial('_jobs/zh/'+theme.Homepage.joinUs.stateName[i]) %>
+                            <% } %>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+                <div><%= __('joinUs.'+theme.Homepage.joinUs.share) %></div>
+            </div>
+        </div>
+    </div>
+</section>

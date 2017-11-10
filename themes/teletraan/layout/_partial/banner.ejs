@@ -1,0 +1,14 @@
+<section class="banner" role="banner">
+    <!-- banner text -->
+    <div class="flexslider">
+        <ul class="slides">
+            <% theme.Homepage.banner.forEach(function(val){ %>
+                <li style="background:url(<%- val %>) no-repeat;background-size: cover;position: relative;text-align:center;color: rgba(255,255,255,1);text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);height: 100vh;">
+                    <div class="shadow"></div>
+                    <div class="nav-content">我们正在打造世界领先的：</div>
+                    <div style="font-size: 36px;padding-top: 2%;">工业物联网应用开发和预测分析平台</div>
+                </li>
+            <% }) %>
+        </ul>
+    </div>
+</section>

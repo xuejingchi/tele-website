@@ -1,0 +1,119 @@
+Homepage:
+  nav:
+    logo:
+    - /img/teletraan-Logo.png
+    - /img/teletraan-Logo@2x.png
+  banner:
+  - /img/banner/banner4.png
+#  - /img/banner/banner2.png
+#  - /img/banner/banner3.png
+  feature:
+    title:
+    - data
+    - ag
+    - po
+    name:
+    - dataTitle
+    - agTitle
+    - poTitle
+    pic:
+    - /img/feature/icon1.svg
+    - /img/feature/icon2.svg
+    - /img/feature/icon3.svg
+    picD:
+    - /img/feature/icon1@2x.png
+    - /img/feature/icon2@2x.png
+    - /img/feature/icon3@2x.png
+    area:
+    - /img/feature/bg1.png
+    - /img/feature/bg2.png
+    areaD:
+    - /img/feature/bg1@2x.png
+    - /img/feature/bg2@2x.png
+  service:
+    title: service
+    pic:
+    - /img/function-icon/offshore-platform.png
+    - /img/function-icon/manufacture.png
+    - /img/function-icon/automotive.png
+    - /img/function-icon/metals-mining.png
+    - /img/function-icon/energy-consumption.png
+    - /img/function-icon/refinery.png
+    picD:
+    - /img/function-icon/offshore-platform@2x.png
+    - /img/function-icon/manufacture@2x.png
+    - /img/function-icon/automotive@2x.png
+    - /img/function-icon/metals-mining@2x.png
+    - /img/function-icon/energy-consumption@2x.png
+    - /img/function-icon/refinery@2x.png
+    name:
+    - ocean
+    - build
+    - car
+    - alchemy
+    - energy
+    - oilRefining
+  aboutUs:
+    bg:
+    - /img/aboutBg.png
+    title: aboutUs
+    content:
+    - total
+    - base
+  joinUs:
+    share: share
+    title: joinUs
+    joinTitle:
+    - name
+    - type
+    - city
+    stateName:
+    - frontEnd
+    - backEnd
+    - seniorBackEnd
+    - UI
+    - seniorUI
+    - projectManager
+    - productManager
+    - marketingDirector
+    - seller
+    - trainee
+    stateType:
+    - frontType
+    - backEndType
+    - seniorBackEndType
+    - UIType
+    - seniorUIType
+    - projectManagerType
+    - productManagerType
+    - marketingDirectorType
+    - sellerType
+    - traineeType
+    stateCity:
+    - frontCity
+    - backEndCity
+    - seniorBackEndCity
+    - UICity
+    - seniorUICity
+    - projectManagerCity
+    - productManagerCity
+    - marketingDirectorCity
+    - sellerCity
+    - traineeCity
+  team:
+    title: team
+    desc:
+    - Chinese
+    - America
+    - contact
+    address:
+    - ChineseAd
+    - AmericaAd
+    name:
+    - ChinsesSt
+    - AmericaSt
+    code:
+    - ChineseCo
+    - AmericaCo
+    email: email
+    phone: phone
